@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blue;
+}
+header{
+    background-color: brown;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 3px 6px red;
+}
+#eat , #mask{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 5vh;
+}
+#wash , #stay , #calm{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    padding: 5vh;
+}
+
